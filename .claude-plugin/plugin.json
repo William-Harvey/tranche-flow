@@ -1,0 +1,23 @@
+{
+  "name": "tranche-flow",
+  "version": "0.1.0",
+  "description": "Safe multi-agent tranche workflow: refuses git stash (shared across worktrees), /worktree-new from the base branch head, /merge-tranche cherry-picks an agent branch and runs the gate tests file by file against a stored baseline, /agent-ledger records every subagent's tokens and duration and flags heavy ones.",
+  "userConfig": {
+    "tokenFlag": {
+      "type": "number",
+      "description": "Flag a subagent whose token usage exceeds this (default 300000).",
+      "default": 300000,
+      "title": "Token flag"
+    },
+    "allowStash": {
+      "type": "boolean",
+      "description": "Allow git stash / pop (default false: the stash stack is shared by every worktree).",
+      "default": false,
+      "title": "Allow git stash"
+    }
+  },
+  "license": "MIT",
+  "author": {
+    "name": "William Harvey"
+  }
+}

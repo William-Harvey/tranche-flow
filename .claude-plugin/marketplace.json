@@ -1,0 +1,12 @@
+{
+  "name": "tranche-flow",
+  "owner": {
+    "name": "William-Harvey"
+  },
+  "plugins": [
+    {
+      "name": "tranche-flow",
+      "source": "./"
+    }
+  ]
+}
