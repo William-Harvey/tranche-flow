@@ -1,4 +1,4 @@
-# tranche-flow
+# Tranche Flow
 
 A Claude Code plugin for sessions that orchestrate work through subagents in git worktrees. It makes the loop that an orchestrating session otherwise repeats by hand, and gets wrong under pressure, mechanical and safe.
 
